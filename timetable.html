@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="/index.html">home</a></li>
+        <li><a href="/timetable.html">timetable</a></li>
+        <li><a href="/announcements.html">announcements</a></li>
+        <li><a href="/register.html">register</a></li>
+      </ul>
+    </nav>
+    <div class="hidden">
+      <h1>Timetable</h1>
+      <div class="timetable"></div>
+      <h1>Random Movie Suggestion</h1>
+      <p>If you want a film reccomendation, please click the button below!</p>
+      <form>
+        <button id="random-button">Random Film</button>
+        <input type="text" placeholder="genre" id="genre" />
+      </form>
+      <div id="random-film"></div>
+      <script type="module" src="./index.js"></script>
+    </div>
+  </body>
+</html>
